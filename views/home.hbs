@@ -1,0 +1,16 @@
+<h2>Check out these sample calendars!</h2>
+
+{{#each calendar}}
+    <div id="calendar">
+        <h2> {{this.name}} </h2>
+        <table>
+            {{#displayDays this.days}}
+                {{{this}}}
+            {{/displayDays}}
+            
+            {{#displayVideos this.videos}}
+                {{{this}}}
+            {{/displayVideos}}
+        </table>
+    </div>
+{{/each}}

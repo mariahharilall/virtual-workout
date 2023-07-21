@@ -1,0 +1,19 @@
+{{#if message}}
+    <div>
+        <h2>You must <a href= "/login">log in</a> before viewing your calendars.</h2>
+    </div>
+{{else}}
+    {{#each calendar}}
+        <div id="calendar">
+            <h2> {{this.name}} </h2>
+            <table>
+                {{#displayDays this.days}}
+                    {{this}}
+                {{/displayDays}}
+                {{#displayVideos this.videos}}
+                    {{this}}
+                {{/displayVideos}}
+            </table>
+        </div>
+    {{/each}}
+{{/if}}

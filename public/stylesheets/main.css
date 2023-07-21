@@ -1,0 +1,70 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#header {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid white;
+    background-color: lightpink;
+    text-align: right;
+}
+
+#title {
+    display: inline-block;
+    width: 100%;
+    background-color: lightpink;
+    font-size: 3em;
+    letter-spacing: .025em;
+}
+
+#title > nav {
+    /*TODO: center, link colors -> white always*/
+    float: right;
+    font-size: .75em;
+}
+
+form {
+    text-align: center;
+    font-size: 2em;
+    line-height: 3em;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    background-color: lightgrey;
+}
+
+#calendar {
+    text-align: center;
+    font-size: 2ems;
+}
+
+table{
+    border: 1px solid black;
+    width: 85%;
+    padding: 0px;
+    margin: 0px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th {
+    background-color: darkgray;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+#error {
+    color: red;
+    font-style: italic;
+}

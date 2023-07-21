@@ -1,0 +1,20 @@
+<div id="calendar">
+    <h2> {{name}} </h2>
+    <table>
+        {{#displayDays days}}
+            {{this}}
+        {{/displayDays}}
+        {{#displayVideos videos}}
+            {{this}}
+        {{/displayVideos}}
+    </table>
+</div>
+
+<form id="add-video" method="POST">
+    Add Video:
+    <input type="text" name="name" id="video_name" value="Video Name">
+    <input type="text" name="link" id="video_link" value="Link">
+    <input type="number" name="day" id="video_day" value="Day">
+    <input type="submit" id="add_video" value="Add Video">
+    <br>
+</form>
