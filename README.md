@@ -75,20 +75,16 @@ An Example Calendar with Embedded Videos:
 
 ## Research Topics
 
-* (5 points) Use Grunt to integrate JSHint
+* Use Grunt to integrate JSHint
     * I'm going to use Grunt + JSHint to run automatically on file change
 ![Grunt gif](documentation/grunt-jshint.gif)
-* (5 points) Passport
+* Passport
     * I will use passport for user authentication
-
-10 points total out of 8 required points
 
 
 ## [Link to Initial Main Project File](app.js) 
 
 ## Annotations / References Used
-
-(___TODO__: list any tutorials/references/etc. that you've based your code off of_)
 
 1. [Grunt setup with JSHint](https://www.codereadability.com/jshint-with-grunt/)
 2. [Passport setup](http://www.passportjs.org/docs/)
